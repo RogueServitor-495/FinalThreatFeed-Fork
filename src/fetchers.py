@@ -497,7 +497,7 @@ class FeedFetcher:
                     print(f"Skip empty or no indicator URL: {entry.link}")
                     continue
                 response_str = await self._call_llm_to_extract(entry.link)
-                for ioc in eval(response_str)['indicators']:
+                for ioc in json.loads(response_str)['indicators']:
                     ioc_dict = {
                         'timestamp': datetime.now().timestamp(),
                         'type': ioc['type'],
@@ -509,7 +509,7 @@ class FeedFetcher:
 
                 # 记录情报元数据（Describe File）信息
                 download_time = datetime.now().isoformat()
-                intelligence_count = len(eval(response_str)['indicators'])
+                intelligence_count = len(json.loads(response_str)['indicators'])
                 self._record_intelligence({
                 'download_time': download_time,
                 'name': entry.title,
