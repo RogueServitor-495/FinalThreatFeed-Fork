@@ -810,3 +810,10 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-10T01:26:28.584641,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//0bfd1fe5-6f9e-4095-bf67-5dd79ef765c5.json,0bfd1fe5-6f9e-4095-bf67-5dd79ef765c5,json,1448,2,2026-03-10T00:03:02
 2026-03-10T01:26:30.313022,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9217,,
 2026-03-10T01:26:32.151858,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//149601cb-8422-4639-8140-03e3b692598b.json,149601cb-8422-4639-8140-03e3b692598b,json,673,2,2026-03-09T19:00:10
+2026-03-11T01:26:21.633848,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3936,,
+2026-03-11T01:26:21.752668,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8342,,
+2026-03-11T01:26:21.872302,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-11T01:26:21.973039,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//bd439c11-bf05-40d3-9c12-a3288d2a49ae.json,bd439c11-bf05-40d3-9c12-a3288d2a49ae,json,956,2,2026-03-11T00:03:02
+2026-03-11T01:26:23.817826,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9221,,
+2026-03-11T01:26:23.839180,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/b7fb793c-c6f0-4ce9-8080-5f853f7766c6.json,b7fb793c-c6f0-4ce9-8080-5f853f7766c6,json,710,2,2026-03-11T00:15:33
+2026-03-11T01:26:25.122247,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//398d73ec-12fc-45d0-97d4-34dc6b9eed69.json,398d73ec-12fc-45d0-97d4-34dc6b9eed69,json,1232,2,2026-03-10T17:00:51
