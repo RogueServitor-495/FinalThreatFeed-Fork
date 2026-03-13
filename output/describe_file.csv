@@ -825,3 +825,10 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-12T01:26:16.388227,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/43cbf3f3-ecdd-4923-bc0c-584dc0294ebc.json,43cbf3f3-ecdd-4923-bc0c-584dc0294ebc,json,527,2,2026-03-12T00:03:08
 2026-03-12T01:26:16.578869,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/3f17f3f1-a280-4d5c-97c3-691c02fcda1a.json,3f17f3f1-a280-4d5c-97c3-691c02fcda1a,json,682,2,2026-03-12T00:15:26
 2026-03-12T01:26:18.898860,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//cd114f15-0701-4df4-aec4-7d4aedece4b6.json,cd114f15-0701-4df4-aec4-7d4aedece4b6,json,1736,2,2026-03-11T21:00:15
+2026-03-13T01:41:48.011172,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7892,,
+2026-03-13T01:41:48.033359,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,2363,,
+2026-03-13T01:41:48.179331,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-13T01:41:49.944251,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9243,,
+2026-03-13T01:41:49.963869,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/729349ca-33ac-42f1-9141-01aba4897eda.json,729349ca-33ac-42f1-9141-01aba4897eda,json,479,2,2026-03-13T00:03:08
+2026-03-13T01:41:50.008038,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//495956a5-4fa9-4e2a-97b6-9b12f36b56a2.json,495956a5-4fa9-4e2a-97b6-9b12f36b56a2,json,1524,2,2026-03-13T00:03:02
+2026-03-13T01:41:50.128318,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/c162b03d-84cb-434d-8da8-3ee7b6063b3c.json,c162b03d-84cb-434d-8da8-3ee7b6063b3c,json,817,2,2026-03-13T00:15:21
