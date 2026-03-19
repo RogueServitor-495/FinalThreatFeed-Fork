@@ -877,3 +877,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-18T01:48:28.792157,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/4c58a507-2502-44da-a670-a099b82aa04c.json,4c58a507-2502-44da-a670-a099b82aa04c,json,812,2,2026-03-18T00:03:06
 2026-03-18T01:48:37.754193,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56229,,
 2026-03-18T01:48:39.568422,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//a1e436cc-7d82-4c1f-8e18-912cb5b1dc7d.json,a1e436cc-7d82-4c1f-8e18-912cb5b1dc7d,json,874,2,2026-03-17T20:00:11
+2026-03-19T01:48:51.212923,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3928,,
+2026-03-19T01:48:51.298023,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8618,,
+2026-03-19T01:48:51.367024,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-19T01:48:51.575888,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/c1a9d589-15a3-404c-9141-54d5e4c49e80.json,c1a9d589-15a3-404c-9141-54d5e4c49e80,json,1277,2,2026-03-19T00:03:07
+2026-03-19T01:48:51.603759,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/15264bc6-f860-41ac-9218-04d094b71873.json,15264bc6-f860-41ac-9218-04d094b71873,json,1524,2,2026-03-19T00:15:21
+2026-03-19T01:48:53.352136,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9308,,
+2026-03-19T01:48:53.399333,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//37c6b17f-c37a-47e3-93b9-115b981584e7.json,37c6b17f-c37a-47e3-93b9-115b981584e7,json,1496,2,2026-03-19T00:03:02
+2026-03-19T01:49:01.960777,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56159,,
+2026-03-19T01:49:02.624683,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//136a6440-ade6-4da3-aea0-d80e65d7af94.json,136a6440-ade6-4da3-aea0-d80e65d7af94,json,724,2,2026-03-18T19:00:06
