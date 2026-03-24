@@ -113,6 +113,18 @@ class ThreatCSVProcessor:
             threat_type3 = '公共矿池'
             confidence = 99
         # 返回 Pandas Series，以便 apply 函数直接组装为 DataFrame
+        elif feed_name == 'Botvrij.eu':
+            threat_type1 = '失陷情报'
+            threat_type2 = '远控'
+            threat_type3 = '远控'
+            confidence = 80
+
+        elif feed_name == 'SecurityVedors':
+            threat_type1 = '失陷情报'
+            threat_type2 = '远控'
+            threat_type3 = '远控'
+            confidence = 80
+
         return pd.Series([
             event_time, ioc_type, ioc_value, port,
             threat_type1, threat_type2, threat_type3, confidence,
