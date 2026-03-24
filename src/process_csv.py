@@ -107,6 +107,10 @@ class ThreatCSVProcessor:
             threat_type2 = '钓鱼'
             threat_type3 = '钓鱼'
 
+        elif feed_name == 'Mining Pool Block List':
+            threat_type1 = '失陷情报'
+            threat_type2 = '数字货币'
+            threat_type3 = '公共矿池'
         # 返回 Pandas Series，以便 apply 函数直接组装为 DataFrame
         return pd.Series([
             event_time, ioc_type, ioc_value, port,

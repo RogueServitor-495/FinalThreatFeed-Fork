@@ -48,6 +48,21 @@ feeds:
       time_format: "%Y-%m-%dT%H:%M:%S%z"  # 时间格式
       jump_line: 1  # 跳过第一行标题行
       static_comment: ["Phishing"]  # 静态标签
+
+  - name: "mining-pool-block-list"
+    enabled: true
+    url: "https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv"
+    source_format: "csv"  # 指定feed类型
+    description: "Mining Pool Block List"
+    # CSV特定配置
+    csv_config:
+      delimiter: ","        # 分隔符
+      value_column: 2         # 第1列是 IP
+      threat_type: "ip-dst|port"        # 强制指定类型
+      time_column: 1        # 第1列是时间信息
+      time_format: "%Y-%m-%dT%H:%M:%S%z"  # 时间格式
+      jump_line: 0  # 跳过第一行标题行
+      static_comment: ["Mining Pool"]  # 静态标签
   # ------------------------------------------
   # 纯文本/正则提取 feed
   # ------------------------------------------
