@@ -924,3 +924,8 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-24T01:29:22.179598,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//e7e0386a-b9af-4529-97da-8c3f35a6cf12.json,e7e0386a-b9af-4529-97da-8c3f35a6cf12,json,1616,2,2026-03-24T00:03:02
 2026-03-24T01:29:30.873829,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55783,,
 2026-03-24T01:29:33.298247,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//d6ee1a04-c309-40b8-a454-852150a1baf9.json,d6ee1a04-c309-40b8-a454-852150a1baf9,json,1128,2,2026-03-23T21:00:15
+2026-03-24T05:47:56.493977,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-24T05:47:56.533701,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8744,,
+2026-03-24T05:47:56.594287,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3826,,
+2026-03-24T05:47:58.393741,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9369,,
+2026-03-24T05:48:07.565907,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55761,,
