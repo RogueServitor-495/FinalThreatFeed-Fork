@@ -111,6 +111,7 @@ class ThreatCSVProcessor:
             threat_type1 = '失陷情报'
             threat_type2 = '数字货币'
             threat_type3 = '公共矿池'
+            confidence = 99
         # 返回 Pandas Series，以便 apply 函数直接组装为 DataFrame
         return pd.Series([
             event_time, ioc_type, ioc_value, port,
