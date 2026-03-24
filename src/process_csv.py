@@ -107,7 +107,7 @@ class ThreatCSVProcessor:
             threat_type2 = '钓鱼'
             threat_type3 = '钓鱼'
 
-        elif feed_name == 'Mining Pool Block List':
+        elif feed_name == 'mining-pool-block-list':
             threat_type1 = '失陷情报'
             threat_type2 = '数字货币'
             threat_type3 = '公共矿池'
