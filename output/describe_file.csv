@@ -953,3 +953,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-26T01:53:20.937892,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/e15ed4a4-05aa-4eb1-9727-9164371a15bf.json,e15ed4a4-05aa-4eb1-9727-9164371a15bf,json,876,2,2026-03-26T00:15:27
 2026-03-26T01:53:30.304099,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56092,,
 2026-03-26T01:53:31.311233,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//c3a6a834-b558-4d12-85a5-eacbdb26d643.json,c3a6a834-b558-4d12-85a5-eacbdb26d643,json,960,2,2026-03-25T20:00:06
+2026-03-27T01:53:19.187842,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,4723,,
+2026-03-27T01:53:21.012452,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9402,,
+2026-03-27T01:53:21.061736,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,9967,,
+2026-03-27T01:53:22.095592,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5628,,
+2026-03-27T01:53:22.157479,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-27T01:53:22.300473,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//a1484281-0e89-4447-930d-0a677465d756.json,a1484281-0e89-4447-930d-0a677465d756,json,1704,2,2026-03-27T00:03:02
+2026-03-27T01:53:31.131380,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56072,,
+2026-03-27T01:53:31.295401,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/b5f3b77d-da0c-46b2-a086-10289e6d87e5.json,b5f3b77d-da0c-46b2-a086-10289e6d87e5,json,525,2,2026-03-27T00:03:06
+2026-03-27T01:53:31.338617,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/97715c53-d118-43a5-933f-7d7284a3ee8f.json,97715c53-d118-43a5-933f-7d7284a3ee8f,json,1047,2,2026-03-27T00:15:18
+2026-03-27T01:53:33.390821,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//6fdcdd1d-9fcd-4a3a-996f-ffa09c16065a.json,6fdcdd1d-9fcd-4a3a-996f-ffa09c16065a,json,1429,2,2026-03-26T21:00:17
