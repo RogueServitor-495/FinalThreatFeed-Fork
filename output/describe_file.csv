@@ -974,3 +974,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-03-29T01:57:21.116336,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55849,,
 2026-03-29T01:57:22.664487,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//bbd0d66e-6b80-4b31-8708-a8826ce91d07.json,bbd0d66e-6b80-4b31-8708-a8826ce91d07,json,969,2,2026-03-27T23:00:03
 2026-03-29T01:57:23.819348,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//ee03b6e0-c469-44df-8426-42e513ab682d.json,ee03b6e0-c469-44df-8426-42e513ab682d,json,1837,2,2026-03-28T23:00:07
+2026-03-30T01:58:45.498537,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//88f44758-cb5d-410a-93c8-8ef321ad1e02.json,88f44758-cb5d-410a-93c8-8ef321ad1e02,json,576,2,2026-03-30T00:03:02
+2026-03-30T01:58:47.374504,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9419,,
+2026-03-30T01:58:47.424240,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-03-30T01:58:47.438294,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3543,,
+2026-03-30T01:58:47.465988,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7704,,
+2026-03-30T01:58:48.568076,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5643,,
+2026-03-30T01:58:48.768465,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/6e17aeff-e1d5-4a11-bb15-f37dbd6c2c29.json,6e17aeff-e1d5-4a11-bb15-f37dbd6c2c29,json,895,2,2026-03-30T00:15:24
+2026-03-30T01:58:57.513889,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55778,,
+2026-03-30T01:58:57.544234,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/d1731cc2-341c-4351-b975-f358887bfc81.json,d1731cc2-341c-4351-b975-f358887bfc81,json,637,2,2026-03-30T00:03:07
+2026-03-30T01:58:59.156042,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//dbd5afe9-55bd-43da-8721-56c54d89b351.json,dbd5afe9-55bd-43da-8721-56c54d89b351,json,615,2,2026-03-29T19:00:04
