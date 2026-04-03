@@ -1010,3 +1010,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-02T01:51:17.934406,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/6ca744dd-a23c-47b9-b464-a3371f0405fb.json,6ca744dd-a23c-47b9-b464-a3371f0405fb,json,1025,2,2026-04-02T00:15:23
 2026-04-02T01:51:27.589996,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55775,,
 2026-04-02T01:51:35.330781,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//3ebd57d1-6fd8-42e8-9c73-b6f8a6089bd7.json,3ebd57d1-6fd8-42e8-9c73-b6f8a6089bd7,json,2032,2,2026-04-02T00:03:01
+2026-04-03T01:52:27.071584,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3796,,
+2026-04-03T01:52:27.172649,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8420,,
+2026-04-03T01:52:28.239715,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5661,,
+2026-04-03T01:52:28.295079,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-03T01:52:28.497809,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/84dbcff9-a572-40aa-bd65-d5f056622a7e.json,84dbcff9-a572-40aa-bd65-d5f056622a7e,json,665,2,2026-04-03T00:15:22
+2026-04-03T01:52:30.381046,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9460,,
+2026-04-03T01:52:39.309879,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55900,,
+2026-04-03T01:52:39.338728,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/e4a7eb91-9429-4038-8197-0187cabc3a01.json,e4a7eb91-9429-4038-8197-0187cabc3a01,json,334,2,2026-04-03T00:03:09
+2026-04-03T01:52:39.361340,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//505ad2f0-296f-4bb4-a12a-73a3f7f8f3f6.json,505ad2f0-296f-4bb4-a12a-73a3f7f8f3f6,json,1028,2,2026-04-03T00:03:01
+2026-04-03T01:52:40.617266,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//0751fd85-ecbb-4204-8d19-2b662950290c.json,0751fd85-ecbb-4204-8d19-2b662950290c,json,189,2,2026-04-02T18:00:49
