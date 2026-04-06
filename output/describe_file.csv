@@ -1040,3 +1040,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-05T01:58:27.603617,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/0deb2870-5a79-45e8-8013-67eeaf4394cd.json,0deb2870-5a79-45e8-8013-67eeaf4394cd,json,441,2,2026-04-05T00:03:07
 2026-04-05T01:58:36.777663,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,55810,,
 2026-04-05T01:58:40.207920,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//d7cd0f75-3f3e-4c1e-8ee6-bdaf92aeffba.json,d7cd0f75-3f3e-4c1e-8ee6-bdaf92aeffba,json,1519,2,2026-04-04T17:00:05
+2026-04-06T01:59:27.488179,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9462,,
+2026-04-06T01:59:27.513570,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3830,,
+2026-04-06T01:59:28.319631,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5661,,
+2026-04-06T01:59:28.368904,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8417,,
+2026-04-06T01:59:28.466331,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-06T01:59:28.950247,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/b996c45a-44f0-44de-8d3a-f152875082d4.json,b996c45a-44f0-44de-8d3a-f152875082d4,json,140,2,2026-04-06T00:03:07
+2026-04-06T01:59:29.123028,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//901d2422-a0a5-4864-b799-26fbe8a42141.json,901d2422-a0a5-4864-b799-26fbe8a42141,json,1864,2,2026-04-06T00:03:02
+2026-04-06T01:59:29.248307,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/6b2df14e-2072-4ab1-be36-4939519cb5d2.json,6b2df14e-2072-4ab1-be36-4939519cb5d2,json,2036,2,2026-04-06T00:15:21
+2026-04-06T01:59:32.275301,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//4fe01c50-d249-4c4e-a5c7-624aaa0c173b.json,4fe01c50-d249-4c4e-a5c7-624aaa0c173b,json,1180,2,2026-04-05T20:00:03
