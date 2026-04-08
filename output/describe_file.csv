@@ -1058,3 +1058,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-07T01:55:42.638711,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9498,,
 2026-04-07T01:55:42.654715,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/d3cb8b3d-a27b-493d-aa37-00bb428b38c6.json,d3cb8b3d-a27b-493d-aa37-00bb428b38c6,json,583,2,2026-04-07T00:03:07
 2026-04-07T01:55:51.411212,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56070,,
+2026-04-08T01:56:22.151624,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3933,,
+2026-04-08T01:56:22.233746,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,9003,,
+2026-04-08T01:56:23.298453,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5662,,
+2026-04-08T01:56:25.138273,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9498,,
+2026-04-08T01:56:25.200115,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//2cfbf277-f5d5-4daa-aeaa-c2ca3a78645a.json,2cfbf277-f5d5-4daa-aeaa-c2ca3a78645a,json,1700,2,2026-04-08T00:03:01
+2026-04-08T01:56:25.238493,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-08T01:56:25.276449,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/11f1b7a3-f344-422b-96e4-0efe570f3f26.json,11f1b7a3-f344-422b-96e4-0efe570f3f26,json,943,2,2026-04-08T00:15:25
+2026-04-08T01:56:25.340327,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/ec7bf32e-de96-494f-8b18-b57aac2293be.json,ec7bf32e-de96-494f-8b18-b57aac2293be,json,479,2,2026-04-08T00:03:06
+2026-04-08T01:56:34.421309,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,56198,,
+2026-04-08T01:56:35.031688,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e4635f7f-a3e2-4b68-932b-44411b27ae88.json,e4635f7f-a3e2-4b68-932b-44411b27ae88,json,888,2,2026-04-07T16:00:31
