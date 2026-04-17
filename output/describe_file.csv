@@ -1148,3 +1148,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-16T02:06:53.631916,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/09a178c6-d080-4464-b2d0-7a1bd24946ac.json,09a178c6-d080-4464-b2d0-7a1bd24946ac,json,1741,2,2026-04-16T00:15:28
 2026-04-16T02:07:02.826940,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57133,,
 2026-04-16T02:07:04.349432,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e1b629a9-1476-4830-a5ee-83b601e05ff3.json,e1b629a9-1476-4830-a5ee-83b601e05ff3,json,248,2,2026-04-15T16:00:11
+2026-04-17T02:02:46.212189,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,2005,,
+2026-04-17T02:02:46.267065,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7121,,
+2026-04-17T02:02:47.422669,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5645,,
+2026-04-17T02:02:47.483945,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-17T02:02:49.817955,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9606,,
+2026-04-17T02:02:49.834521,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/0a7a97db-b0ce-4868-9943-35cca62a1014.json,0a7a97db-b0ce-4868-9943-35cca62a1014,json,558,2,2026-04-17T00:03:07
+2026-04-17T02:02:49.853481,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//4064e96e-604d-488d-b7d0-bd6169d7b1f4.json,4064e96e-604d-488d-b7d0-bd6169d7b1f4,json,940,2,2026-04-17T00:03:02
+2026-04-17T02:02:49.872016,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/7c63d010-5aa8-4960-9633-aaa1e916a224.json,7c63d010-5aa8-4960-9633-aaa1e916a224,json,1150,2,2026-04-17T00:15:25
+2026-04-17T02:02:51.575873,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//40b63ce6-f62b-43ba-a695-7e02006db7c8.json,40b63ce6-f62b-43ba-a695-7e02006db7c8,json,1402,2,2026-04-16T20:00:08
