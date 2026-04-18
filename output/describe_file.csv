@@ -1157,3 +1157,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-17T02:02:49.853481,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//4064e96e-604d-488d-b7d0-bd6169d7b1f4.json,4064e96e-604d-488d-b7d0-bd6169d7b1f4,json,940,2,2026-04-17T00:03:02
 2026-04-17T02:02:49.872016,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/7c63d010-5aa8-4960-9633-aaa1e916a224.json,7c63d010-5aa8-4960-9633-aaa1e916a224,json,1150,2,2026-04-17T00:15:25
 2026-04-17T02:02:51.575873,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//40b63ce6-f62b-43ba-a695-7e02006db7c8.json,40b63ce6-f62b-43ba-a695-7e02006db7c8,json,1402,2,2026-04-16T20:00:08
+2026-04-18T01:53:48.216331,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7220,,
+2026-04-18T01:53:48.226687,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,2102,,
+2026-04-18T01:53:49.133304,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5648,,
+2026-04-18T01:53:49.207811,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//88bfde3a-136e-4db8-bdda-ff20ef750b49.json,88bfde3a-136e-4db8-bdda-ff20ef750b49,json,1548,2,2026-04-18T00:03:02
+2026-04-18T01:53:50.532281,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9614,,
+2026-04-18T01:53:50.553475,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/c4693541-bdad-4ad1-a12a-8c32556e5dd6.json,c4693541-bdad-4ad1-a12a-8c32556e5dd6,json,767,2,2026-04-18T00:03:07
+2026-04-18T01:53:50.597055,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-18T01:53:50.819250,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/ffb846ff-451f-4f48-83de-417a6228b54a.json,ffb846ff-451f-4f48-83de-417a6228b54a,json,1100,2,2026-04-18T00:15:23
+2026-04-18T01:53:55.030046,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e01c3382-0750-4036-9299-c508d322df77.json,e01c3382-0750-4036-9299-c508d322df77,json,1584,2,2026-04-17T20:00:38
