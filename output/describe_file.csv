@@ -1166,3 +1166,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-18T01:53:50.597055,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
 2026-04-18T01:53:50.819250,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/ffb846ff-451f-4f48-83de-417a6228b54a.json,ffb846ff-451f-4f48-83de-417a6228b54a,json,1100,2,2026-04-18T00:15:23
 2026-04-18T01:53:55.030046,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e01c3382-0750-4036-9299-c508d322df77.json,e01c3382-0750-4036-9299-c508d322df77,json,1584,2,2026-04-17T20:00:38
+2026-04-19T02:06:51.096218,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,6625,,
+2026-04-19T02:06:51.128027,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,1695,,
+2026-04-19T02:06:51.994241,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5641,,
+2026-04-19T02:06:52.071502,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//ba09a646-4863-4838-8ad9-386869bc9c58.json,ba09a646-4863-4838-8ad9-386869bc9c58,json,1668,2,2026-04-19T00:03:01
+2026-04-19T02:06:52.102462,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-19T02:06:53.438856,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9615,,
+2026-04-19T02:06:53.450024,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/020ad15e-bbb6-44fb-ad21-b0375ca2a9b2.json,020ad15e-bbb6-44fb-ad21-b0375ca2a9b2,json,355,2,2026-04-19T00:03:07
+2026-04-19T02:06:53.473559,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/0d2e5f7d-2f55-428f-9907-53b5464d9b5c.json,0d2e5f7d-2f55-428f-9907-53b5464d9b5c,json,1099,2,2026-04-19T00:15:28
+2026-04-19T02:06:59.620316,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57162,,
+2026-04-19T02:07:05.797673,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//19cf13ab-8026-42da-82d0-5a856e1d479a.json,19cf13ab-8026-42da-82d0-5a856e1d479a,json,998,2,2026-04-18T16:01:10
