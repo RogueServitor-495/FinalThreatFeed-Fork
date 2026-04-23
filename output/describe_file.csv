@@ -1207,3 +1207,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-22T02:02:13.556669,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//e122c961-ef29-4334-8f8b-19d29dbf09e0.json,e122c961-ef29-4334-8f8b-19d29dbf09e0,json,1456,2,2026-04-22T00:03:01
 2026-04-22T02:02:20.638379,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57720,,
 2026-04-22T02:02:23.714144,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//7f785788-f3a8-423a-8cf9-ec8480772460.json,7f785788-f3a8-423a-8cf9-ec8480772460,json,1722,2,2026-04-21T16:00:17
+2026-04-23T02:05:43.323264,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,9769,,
+2026-04-23T02:05:43.400721,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,4036,,
+2026-04-23T02:05:44.490976,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5632,,
+2026-04-23T02:05:44.608207,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-23T02:05:44.618955,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/1fa8ad56-76e9-47a0-8fa7-63f22963963f.json,1fa8ad56-76e9-47a0-8fa7-63f22963963f,json,530,2,2026-04-23T00:03:07
+2026-04-23T02:05:53.729036,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57721,,
+2026-04-23T02:05:55.694645,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9634,,
+2026-04-23T02:05:55.754096,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/b3125487-42ca-4155-8d9d-4fcd0fd8a5cd.json,b3125487-42ca-4155-8d9d-4fcd0fd8a5cd,json,1712,2,2026-04-23T00:15:27
+2026-04-23T02:05:55.796541,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//f81883ca-45a6-42da-bb43-1b8743918a70.json,f81883ca-45a6-42da-bb43-1b8743918a70,json,2052,2,2026-04-23T00:03:02
+2026-04-23T02:05:57.015260,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//ac521fad-b190-4293-9247-222762644fb7.json,ac521fad-b190-4293-9247-222762644fb7,json,2811,2,2026-04-22T22:00:28
