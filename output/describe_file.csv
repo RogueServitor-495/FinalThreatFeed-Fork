@@ -1245,3 +1245,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-26T02:10:03.745759,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57768,,
 2026-04-26T02:10:05.638351,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//71a0be23-b18e-4fb0-91fe-69a0ff3b53e3.json,71a0be23-b18e-4fb0-91fe-69a0ff3b53e3,json,652,2,2026-04-24T19:00:04
 2026-04-26T02:10:06.916584,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//41c6badd-b26b-40f1-bee9-8ac50593d892.json,41c6badd-b26b-40f1-bee9-8ac50593d892,json,3009,2,2026-04-25T22:00:05
+2026-04-27T02:12:21.671785,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3529,,
+2026-04-27T02:12:21.761907,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8498,,
+2026-04-27T02:12:22.566288,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5612,,
+2026-04-27T02:12:22.651769,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-27T02:12:22.785462,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/a9ad9de0-1710-43c4-bbd6-e5514967a66a.json,a9ad9de0-1710-43c4-bbd6-e5514967a66a,json,386,2,2026-04-27T00:03:07
+2026-04-27T02:12:22.837306,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/4dccb2f6-b48f-4584-b2bb-54052fcb5cab.json,4dccb2f6-b48f-4584-b2bb-54052fcb5cab,json,1405,2,2026-04-27T00:15:24
+2026-04-27T02:12:29.565636,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57923,,
+2026-04-27T02:12:31.074084,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9641,,
+2026-04-27T02:12:31.108293,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//bc313f93-76cf-4d33-bd20-d8f6937a2815.json,bc313f93-76cf-4d33-bd20-d8f6937a2815,json,1464,2,2026-04-27T00:03:02
