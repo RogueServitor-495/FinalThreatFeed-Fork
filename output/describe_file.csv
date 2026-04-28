@@ -1254,3 +1254,13 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-04-27T02:12:29.565636,Phishtank,csv,https://data.phishtank.com/data/online-valid.csv,,csv,57923,,
 2026-04-27T02:12:31.074084,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9641,,
 2026-04-27T02:12:31.108293,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//bc313f93-76cf-4d33-bd20-d8f6937a2815.json,bc313f93-76cf-4d33-bd20-d8f6937a2815,json,1464,2,2026-04-27T00:03:02
+2026-04-28T02:27:44.015647,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3527,,
+2026-04-28T02:27:44.109658,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8337,,
+2026-04-28T02:27:44.869170,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5626,,
+2026-04-28T02:27:44.929998,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-04-28T02:27:46.430050,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9641,,
+2026-04-28T02:27:46.531995,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//e0f7d20e-36b6-4cf9-b772-8c29a57e508c.json,e0f7d20e-36b6-4cf9-b772-8c29a57e508c,json,2380,2,2026-04-28T00:03:02
+2026-04-28T02:27:46.661617,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/e8610ee2-6a0f-4727-b922-ee003f7a74d3.json,e8610ee2-6a0f-4727-b922-ee003f7a74d3,json,417,2,2026-04-28T00:03:07
+2026-04-28T02:27:46.681847,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/1b1940d2-692a-49e3-aea9-d25a6c92a38c.json,1b1940d2-692a-49e3-aea9-d25a6c92a38c,json,756,2,2026-04-28T00:15:24
+2026-04-28T02:27:48.087677,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//7fb56db4-d93d-4e94-84d0-ff0c41d703dc.json,7fb56db4-d93d-4e94-84d0-ff0c41d703dc,json,5624,2,2026-04-26T22:00:04
+2026-04-28T02:27:49.014568,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//33f918d7-18b1-4726-8e7d-0bf424b7dd63.json,33f918d7-18b1-4726-8e7d-0bf424b7dd63,json,1591,2,2026-04-27T20:00:02
