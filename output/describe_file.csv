@@ -1357,3 +1357,11 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-05-08T02:33:21.390857,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//6202358f-37d4-4f3b-8a89-faec9ceeb909.json,6202358f-37d4-4f3b-8a89-faec9ceeb909,json,225,2,2026-05-06T23:00:50
 2026-05-08T02:33:23.303629,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//4db752e8-4cf1-429b-afd6-209df464146c.json,4db752e8-4cf1-429b-afd6-209df464146c,json,2050,2,2026-05-05T21:00:09
 2026-05-08T02:33:23.629419,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//18fe8d57-6f89-4001-9500-7b26c0f50c8b.json,18fe8d57-6f89-4001-9500-7b26c0f50c8b,json,4049,2,2026-05-06T22:00:09
+2026-05-09T02:25:57.908103,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-05-09T02:25:57.921060,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3619,,
+2026-05-09T02:25:57.992995,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8885,,
+2026-05-09T02:25:58.593479,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5592,,
+2026-05-09T02:25:59.681107,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9684,,
+2026-05-09T02:25:59.703728,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/a492bfa0-4def-4318-a9a7-55d9e2d944a9.json,a492bfa0-4def-4318-a9a7-55d9e2d944a9,json,805,2,2026-05-09T00:03:08
+2026-05-09T02:25:59.811116,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//e4213add-52cd-4ad2-8e7c-37ce5a8af1ce.json,e4213add-52cd-4ad2-8e7c-37ce5a8af1ce,json,3220,2,2026-05-09T00:03:02
+2026-05-09T02:25:59.829630,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/32d9c8fd-90f9-4559-bf33-e8985b01fd10.json,32d9c8fd-90f9-4559-bf33-e8985b01fd10,json,1184,2,2026-05-09T00:15:26
