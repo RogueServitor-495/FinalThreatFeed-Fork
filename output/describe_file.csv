@@ -1470,3 +1470,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-05-21T02:47:11.510132,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/75fe3634-cfc2-458f-951a-34cd5b20ac89.json,75fe3634-cfc2-458f-951a-34cd5b20ac89,json,1236,2,2026-05-21T00:15:28
 2026-05-21T02:47:13.888948,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9724,,
 2026-05-21T02:47:21.975623,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//10c39115-7be2-45d1-884f-8125733c1b92.json,10c39115-7be2-45d1-884f-8125733c1b92,json,221,2,2026-05-20T22:00:08
+2026-05-22T02:47:34.704955,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,10916,,
+2026-05-22T02:47:34.725752,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,4584,,
+2026-05-22T02:47:35.507759,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5611,,
+2026-05-22T02:47:35.596258,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-05-22T02:47:37.020532,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9741,,
+2026-05-22T02:47:37.056081,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/f2a51d3f-6fa1-487f-bb20-c6daa857ea46.json,f2a51d3f-6fa1-487f-bb20-c6daa857ea46,json,563,2,2026-05-22T00:15:24
+2026-05-22T02:47:37.278486,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//d037f324-6ffd-4ec6-8c90-d50e3febe375.json,d037f324-6ffd-4ec6-8c90-d50e3febe375,json,5824,2,2026-05-22T00:03:02
+2026-05-22T02:47:37.288294,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/65c496d3-57f0-4e5f-baf1-271934a6d17d.json,65c496d3-57f0-4e5f-baf1-271934a6d17d,json,299,2,2026-05-22T00:03:07
+2026-05-22T02:47:42.460242,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//f448167c-10a0-4757-b348-873d680bfdf9.json,f448167c-10a0-4757-b348-873d680bfdf9,json,758,2,2026-05-21T18:00:04
