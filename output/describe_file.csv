@@ -1532,3 +1532,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-05-28T02:38:47.160183,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/66d1da83-f1d8-4eb1-99ba-14e02393c949.json,66d1da83-f1d8-4eb1-99ba-14e02393c949,json,328,2,2026-05-28T00:03:07
 2026-05-28T02:38:47.187635,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/7f367b01-0e6d-45db-ab24-ea4a71a8ab70.json,7f367b01-0e6d-45db-ab24-ea4a71a8ab70,json,905,2,2026-05-28T00:15:20
 2026-05-28T02:38:50.014594,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//9a4ef3c0-d447-4f61-b72c-46d3acbbb1d2.json,9a4ef3c0-d447-4f61-b72c-46d3acbbb1d2,json,188,2,2026-05-27T18:00:05
+2026-05-29T02:41:56.469583,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,9272,,
+2026-05-29T02:41:56.493879,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3861,,
+2026-05-29T02:41:57.263146,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5632,,
+2026-05-29T02:41:57.570988,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-05-29T02:41:57.709546,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/2af587a8-5a48-441c-9402-25ebbba27ce5.json,2af587a8-5a48-441c-9402-25ebbba27ce5,json,993,2,2026-05-29T00:15:21
+2026-05-29T02:41:57.804345,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//3378e23b-937c-43a4-8583-6a65ea88fb1c.json,3378e23b-937c-43a4-8583-6a65ea88fb1c,json,2536,2,2026-05-29T00:03:02
+2026-05-29T02:41:59.261450,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9819,,
+2026-05-29T02:41:59.272392,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/ded39d7e-944a-410f-b632-bf0abb3274cf.json,ded39d7e-944a-410f-b632-bf0abb3274cf,json,350,2,2026-05-29T00:03:07
+2026-05-29T02:42:02.857294,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//92b12a00-26ca-4092-a480-fece3ad6f9d5.json,92b12a00-26ca-4092-a480-fece3ad6f9d5,json,501,2,2026-05-28T21:00:27
