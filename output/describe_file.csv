@@ -1568,3 +1568,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-06-01T03:29:17.196790,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//26d4949a-c464-4eec-95ab-f0fb197d636b.json,26d4949a-c464-4eec-95ab-f0fb197d636b,json,1272,2,2026-06-01T00:03:01
 2026-06-01T03:29:20.396511,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/46fe441a-a3ec-484c-b698-918c452d3eb4.json,46fe441a-a3ec-484c-b698-918c452d3eb4,json,981,2,2026-06-01T00:15:20
 2026-06-01T03:29:20.883925,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//48f67453-ca57-4770-8c63-dc82595f3e0e.json,48f67453-ca57-4770-8c63-dc82595f3e0e,json,1082,2,2026-05-31T20:00:22
+2026-06-02T02:58:42.326173,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-06-02T02:58:42.399264,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7675,,
+2026-06-02T02:58:42.421703,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3589,,
+2026-06-02T02:58:43.466487,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5655,,
+2026-06-02T02:58:43.776308,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//4763081c-be61-4628-a63e-7e3926e29f3f.json,4763081c-be61-4628-a63e-7e3926e29f3f,json,1516,2,2026-06-02T00:03:02
+2026-06-02T02:58:43.816669,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/9188379b-9988-4bcd-a56c-d5b2a4015f8c.json,9188379b-9988-4bcd-a56c-d5b2a4015f8c,json,1043,2,2026-06-02T00:15:24
+2026-06-02T02:58:47.521914,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9830,,
+2026-06-02T02:58:47.531063,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/59e806ba-7cd2-4c24-98eb-3fa581ad2fe7.json,59e806ba-7cd2-4c24-98eb-3fa581ad2fe7,json,337,2,2026-06-02T00:03:08
+2026-06-02T02:58:48.609768,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e23472df-ca0e-42e3-a1d8-903fef202593.json,e23472df-ca0e-42e3-a1d8-903fef202593,json,579,2,2026-06-01T20:00:11
