@@ -1577,3 +1577,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-06-02T02:58:47.521914,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9830,,
 2026-06-02T02:58:47.531063,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/59e806ba-7cd2-4c24-98eb-3fa581ad2fe7.json,59e806ba-7cd2-4c24-98eb-3fa581ad2fe7,json,337,2,2026-06-02T00:03:08
 2026-06-02T02:58:48.609768,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//e23472df-ca0e-42e3-a1d8-903fef202593.json,e23472df-ca0e-42e3-a1d8-903fef202593,json,579,2,2026-06-01T20:00:11
+2026-06-03T03:33:53.546447,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3571,,
+2026-06-03T03:33:53.624630,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,7641,,
+2026-06-03T03:33:54.516863,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5663,,
+2026-06-03T03:33:54.557435,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//013d5657-2256-4444-b4a5-79d132de55b3.json,013d5657-2256-4444-b4a5-79d132de55b3,json,924,2,2026-06-03T00:03:02
+2026-06-03T03:33:56.007025,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9831,,
+2026-06-03T03:33:56.045965,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-06-03T03:33:56.213303,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/fd94eeff-6af7-453d-ab6e-3552ad2dcbba.json,fd94eeff-6af7-453d-ab6e-3552ad2dcbba,json,761,2,2026-06-03T00:03:08
+2026-06-03T03:33:56.282815,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/762532ff-3eff-432e-839d-7be809df91d2.json,762532ff-3eff-432e-839d-7be809df91d2,json,798,2,2026-06-03T00:15:22
+2026-06-03T03:33:59.364159,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//87f831ba-5e47-4210-b79a-d733f70f4a00.json,87f831ba-5e47-4210-b79a-d733f70f4a00,json,467,2,2026-06-02T20:00:09
