@@ -2,8 +2,8 @@ name: Daily Run
 
 on:
   schedule:
-    # 每天UTC时间0点运行（北京时间早上8点）
-    - cron: '0 0 * * *'
+    # 每天UTC时间2点运行（北京时间早上10点）
+    - cron: '0 2 * * *'
   # 允许手动触发
   workflow_dispatch:
 
@@ -12,37 +12,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-        cache: 'pip'
-    
-    - name: Install dependencies
+
+    - name: Download files from source repo
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    - name: Run FinalThreatFeed
-      env:
-          GEMINI_API_KEY: ${{ secrets.GOOGLE_GEMINI }}
-      run: python main.py 
-    
-    - name: Commit and push changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add README.md output/*
-        git diff --staged --quiet || git commit -m "Update threat feed data"
-        git push
-        
+          BASE_URL="https://raw.githubusercontent.com/vuln000/FinalThreatFeed/main/output"
+ 
+          # 需要同步的文件列表，按需增减
+          FILES=(
+            "labeled_threat_threat.csv"
+          )
+ 
+          mkdir -p download
+          for file in "${FILES[@]}"; do
+            echo "正在下载: $file"
+            curl -fSL --retry 3 --retry-delay 5 \
+              -o "download/$file" \
+              "$BASE_URL/$file"
+ 
+            if [ $? -eq 0 ]; then
+              echo "下载成功: $file ($(du -h "download/$file" | cut -f1))"
+            else
+              echo "下载失败: $file"
+              exit 1
+            fi
+          done
+
     - name: Upload to Ctyun OBS
       env:
           AWS_ACCESS_KEY_ID: ${{ secrets.CTYUN_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CTYUN_SECRET_ACCESS_KEY }}
+          CTYUN_ENDPOINT: ${{ secrets.CTYUN_ENDPOINT }}
+          CTYUN_BUCKET: ${{ secrets.CTYUN_BUCKET }}
       run: |
-          aws s3 cp output/labeled_threat_threat.csv \
-            s3://${{ secrets.CTYUN_BUCKET }}/threat-feed/labeled_threat_threat.csv \
-            --endpoint-url ${{ secrets.CTYUN_ENDPOINT }} \
-            --no-verify-ssl
+          for file in download/*; do
+            filename=$(basename "$file")
+            echo "正在上传: $filename"
+            aws s3 cp "$file" \
+              "s3://${CTYUN_BUCKET}/threat-feed/${filename}" \
+              --endpoint-url "${CTYUN_ENDPOINT}" \
+              --no-verify-ssl
+            echo "上传完成: $filename"
+          done
+ 
+    - name: Summary
+      run: |
+          echo "=== 同步完成 ==="
+          echo "时间: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "文件列表:"
+          ls -lh download/
+    
