@@ -1631,3 +1631,12 @@ download_time,name,source_format,url,event_uuid,data_type,data_size,threat_level
 2026-06-08T02:59:29.776409,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/0dbaad8b-597b-487a-be9b-7953de7d2f16.json,0dbaad8b-597b-487a-be9b-7953de7d2f16,json,251,2,2026-06-08T00:03:07
 2026-06-08T02:59:29.879448,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/e851d04c-6dae-42bb-9ff6-4b95e2934054.json,e851d04c-6dae-42bb-9ff6-4b95e2934054,json,906,2,2026-06-08T00:15:25
 2026-06-08T02:59:36.462194,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//04bacec9-88d5-4088-b1ba-f4c581df4bc1.json,04bacec9-88d5-4088-b1ba-f4c581df4bc1,json,202,2,2026-06-07T18:00:13
+2026-06-09T02:37:08.966859,IPsum-l4,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt,,text,8029,,
+2026-06-09T02:37:08.984472,IPsum-l5,text,https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt,,text,3531,,
+2026-06-09T02:37:09.042079,Alienvault-IP-Reputation,csv,https://reputation.alienvault.com/reputation.generic,,csv,609,,
+2026-06-09T02:37:10.175884,mining-pool-block-list,csv,https://raw.githubusercontent.com/vuln000/mining-pool-block-list/refs/heads/main/mining_pools.csv,,csv,5686,,
+2026-06-09T02:37:12.096573,abuse.ch-SSL,csv,https://sslbl.abuse.ch/blacklist/sslblacklist.csv,,csv,9878,,
+2026-06-09T02:37:12.262750,abuse.ch-Bazaar,misp,https://bazaar.abuse.ch/downloads/misp//f55c261c-9f57-41dd-87ee-4626ccf373d5.json,f55c261c-9f57-41dd-87ee-4626ccf373d5,json,3588,2,2026-06-09T00:03:01
+2026-06-09T02:37:12.284390,abuse.ch,misp,https://threatfox.abuse.ch/downloads/misp/7c4b78f5-f328-49a3-a3e2-fda2ad4eb2bd.json,7c4b78f5-f328-49a3-a3e2-fda2ad4eb2bd,json,595,2,2026-06-09T00:03:07
+2026-06-09T02:37:12.309720,abuse.ch-URLhasus,misp,https://urlhaus.abuse.ch/downloads/misp/7ecd3df7-21c5-403d-a70e-0a7704dea33d.json,7ecd3df7-21c5-403d-a70e-0a7704dea33d,json,1028,2,2026-06-09T00:15:27
+2026-06-09T02:37:21.326472,CIRCL OSINT Feed,misp,https://www.circl.lu/doc/misp/feed-osint//4a45e589-c851-41a9-b4c0-249de14eceeb.json,4a45e589-c851-41a9-b4c0-249de14eceeb,json,8242,2,2026-06-08T20:00:04
