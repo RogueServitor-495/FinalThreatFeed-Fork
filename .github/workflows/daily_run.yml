@@ -36,3 +36,13 @@ jobs:
         git add README.md output/*
         git diff --staged --quiet || git commit -m "Update threat feed data"
         git push
+        
+    - name: Upload to Ctyun OBS
+      env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.CTYUN_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CTYUN_SECRET_ACCESS_KEY }}
+      run: |
+          aws s3 cp output/labeled_threat_threat.csv \
+            s3://${{ secrets.CTYUN_BUCKET }}/threat-feed/labeled_threat_threat.csv \
+            --endpoint-url ${{ secrets.CTYUN_ENDPOINT }} \
+            --no-verify-ssl
